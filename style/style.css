@@ -10,6 +10,11 @@
     padding: 30px 150px 30px 130px;
     font-family: 'Azeret Mono';
 }
+.nav-title{
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+}
 .nav-btn {
     padding: 12px 20px;
     border: 1px solid rgb(13, 19, 33);
@@ -131,17 +136,17 @@
 }
 .card-title{
     color: rgba(13, 19, 33, 0.7);
-font-family: 'Azeret Mono';
-font-size: 24px;
-font-weight: 700;
-margin-bottom: 14px;
+    font-family: 'Azeret Mono';
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
 }
 .card-description{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-margin-top: 16px;
+    font-family: 'Azeret Mono';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
 }
 .card-btn{
     border: 1px solid rgb(13, 19, 33);
@@ -153,7 +158,7 @@ margin-top: 16px;
 .card-btn-text{
     text-decoration: none;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: 'Azeret Mono';
     font-size: 18px;
     font-weight: 500;
 }
@@ -173,7 +178,7 @@ margin-top: 16px;
     text-align: center;
 }
 .video-content{
-    width: 1120px;
+    width: 1130px;
     height: 600px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -189,15 +194,154 @@ margin-top: 16px;
 }
 .Inspiration-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: 'Azeret Mono';
     font-size: 32px;
     font-weight: 800;
 }
 .Inspiration-description{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: 'Azeret Mono';
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
     margin-top: 24px;
 }
+
+/* current-target section design */
+.current-target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.current-target-container{
+    width: 1140px;
+    height: 460px;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px 0 rgba(66, 66, 66, 0.575);
+    padding: 10px;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-description{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+.targets-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    gap: 24px;
+}
+.target-option{
+    width: 364px;
+    height: 230px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.103);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 10px;
+}
+.option-title{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.option-description{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.learn-option{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.color-1{
+    background: rgba(0, 77, 232, 0.103);
+}
+.color-2{
+    background: rgba(255, 221, 0, 0.103);
+}
+
+/* support section design */
+.Support-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.support-container{
+    background-image: linear-gradient(90deg, rgb(16, 16, 16) -19.5%,rgba(0, 0, 0, 0.199) 100%), url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 313px;
+    border-radius: 12px;
+    background-color: ;
+    color: white;
+    margin-bottom: 60px;
+}
+.feedback{
+    width: 448px;
+    height: 47px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding-left: 20px;
+    margin-top: 28px;
+    font-size: 15px;
+}
+.submit-btn{
+    width: 120px;
+    height: 49px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    /* padding: 17px 20px 17px 20px; */
+    border: none;
+    margin-left: 14px;
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer section design */
